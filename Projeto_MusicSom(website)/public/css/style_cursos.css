@@ -1,0 +1,104 @@
+#logo-link
+{
+	position: absolute;
+	left: 1em;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#logo-link h2
+{
+	font-size: 36px;
+}
+
+#logo-link h2.logo-som
+{
+	right: 0;
+}
+
+#logo-link img
+{
+	width: 60px;
+}
+
+#cont-curso
+{
+	width: 100%;
+	text-align: center;
+	font-family: 'Palanquin Dark', sans-serif;
+	margin-bottom: 260px;
+}
+
+.title-cursos h1
+{
+	font-size: 75px;
+}
+
+.title-cursos p
+{
+	font-size: 28px;
+	margin: 10px 200px;
+}
+
+#txt-aviso
+{
+	color: red;
+	font-size: 25px;
+}
+
+.cards-curso-wrapper
+{
+	position: relative;
+	margin: 80px 150px;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 50px;
+	grid-row-gap: 40px;
+
+}
+
+.card-curso
+{
+	position: relative;
+	background-color: rgba(234, 225, 17, 0.35);
+	border-radius: 30px;
+	box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+	padding-bottom: 20px;
+	width: 260px;
+}
+
+.card-top
+{
+	background-color: #EABD11;
+	border: 2px solid;
+	border-color: #EABD11;
+	border-radius: 30px 30px 0px 0px;
+	box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+	margin-bottom: 20px;
+}
+
+.card-top h1
+{
+	color: #404040;
+	font-weight: 400;
+	font-size: 28px;
+
+}
+
+.card-icon
+{
+	width: 140px;
+	margin: 10px;
+}
+
+#viola_caipira div h1
+{
+	font-size: 25px;
+	font-weight: 500;
+}
+
+#musclcao_infat div h1
+{
+	font-size: 24px;
+	font-weight: 500;
+}

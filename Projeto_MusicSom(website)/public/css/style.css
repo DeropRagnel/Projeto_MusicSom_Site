@@ -1,0 +1,496 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.header
+{
+	width: 100%;
+	height: 186px;
+}
+
+.header nav
+{
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.btn-inscrever
+{
+	font-size: 30px;
+	font-family: 'Palanquin Dark', sans-serif;
+	text-decoration: none;
+	background-color: #404040;
+	color: #EABD11;
+	border-radius: 50px;
+	padding: 0px 40px 0px 40px;
+	border: none;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
+.btn-inscrever:hover
+{
+	background-color: #EABD11;
+	color: #404040;
+}
+
+.logo
+{
+	text-decoration: none;
+}
+
+.logo h2
+{
+	font-size: 48px;
+}
+
+h2.logo-music
+{	
+	font-family: 'Palanquin Dark', sans-serif;
+	color: black;
+}
+
+h2.logo-som
+{
+	font-family: 'Palanquin Dark', sans-serif;
+	color: #EABD11;
+	margin-top: -45px;
+	margin-left: 90px;
+}
+
+.logo-guitarra
+{
+	width: 100px;
+	margin-top: -58px;
+	margin-left: 160px;
+	background-color: none;
+}
+
+.title
+{
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+
+.title p
+{
+	font-family: 'Palanquin', sans-serif;
+	font-size: 54px;
+	text-align: center;
+}
+
+.title p span
+{
+	font-family: 'Palanquin Dark', sans-serif;
+	font-size: 68px;
+}
+
+.title p span.title-som
+{
+	color: #EABD11;
+}
+
+.container
+{
+	width: 100%;
+	position: relative;
+	margin-top: 50px;
+}
+
+.main-card
+{
+	width: 820px;
+	margin-left: 20px;
+	padding-top: 30px;
+	padding-left: 70px;
+	padding-right: 25px;
+	padding-bottom: 80px;
+	background: #EABD11;
+	color: #404040;
+}
+
+.main-card h1
+{
+	font-family: 'Palanquin Dark',sans-serif;
+	font-size: 80px;
+}
+
+.main-card p
+{
+	font-family: 'Palanquin700',sans-serif;
+	margin-right: 38%;
+	font-size: 26px;
+	line-height: 44px;
+}
+
+.card-img
+{
+	position: absolute;
+	top: 28%;
+	right: 80px;
+	width: 705px;
+	height: 470px;
+	box-shadow: 10px 8px 10px rgba(179, 177, 177, 0.6);
+}
+
+.inscricao
+{
+	width: 100%;
+	position: relative;
+	margin-bottom: 50px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.inscricao h2
+{
+	font-family: 'Palanquin',sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+.inscricao button
+{
+	
+	margin-top: 58px;
+	background-color: #EABD11;
+	padding: 10px 170px;
+	display: inline-block;
+	border-radius: 5px;
+	color: #404040;
+	cursor: pointer;
+	transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
+}
+
+.inscricao button:hover
+{
+	background-color: #404040;
+	color: #EABD11;
+}
+
+.inscricao button h2
+{
+	font-family: 'Palanquin',sans-serif;
+	font-size: 40px;
+}
+
+
+.downloads
+{
+	background: rgba(234, 225, 17, 0.35);
+	padding-top: 15%;
+	padding-bottom: 80px;
+	clip-path: 	polygon(0 200px, 90% 0, 150% 100%, 0 100%);
+}
+
+.downloads p
+{
+	font-family: 'Palanquin',sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 60px;
+	text-align: center;
+}
+
+.downloads a
+{
+	margin-top: 58px;
+	background-color: #EABD11;
+	display: inline-block;
+	text-decoration: none;
+	color: #404040;
+	font-family: 'Palanquin',sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	position: relative;
+}
+
+.btn-mobile
+{
+	margin-left: 50%;
+	transform: translate(-50%);
+	padding-top: 10px;
+	padding-right: 100px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	transition: all ease-in-out 0.2s;
+}
+
+.btn-mobile img
+{
+	width: 90px;
+	position: absolute;
+	top: 4px;
+}
+
+.btn-mobile:hover
+{
+	transform: translate(-50%) scale(1.1);
+}
+
+.btn-desktop
+{
+	margin-left: 50%;
+	transform: translate(-50%);
+	padding-top: 10px;
+	padding-right: 120px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	transition: all ease-in-out 0.2s;
+}
+
+.btn-desktop img
+{
+	width: 80px;
+	position: absolute;
+	top: 4px;
+	right: 30px;
+}
+
+.btn-desktop:hover
+{
+	transform: translate(-50%) scale(1.1);
+}
+
+.downloads .logo
+{
+	margin-left: 30%;
+	margin-bottom: 250px;
+	position: relative;
+}
+
+.downloads .logo h2
+{
+	font-size: 120px;
+}
+
+.downloads h2.logo-music
+{	
+	font-family: 'Palanquin Dark', sans-serif;
+}
+
+.downloads h2.logo-som
+{
+	font-family: 'Palanquin Dark', sans-serif;
+	color: #EABD11;
+	position: absolute;
+	margin-top: -10%;
+	margin-left: 18%;
+}
+
+.downloads .logo-guitarra
+{
+	width: 250px;
+	position: absolute;
+	top: 100%;
+	margin-left: 36%;
+	background-color: none;
+}
+
+
+
+.rodape
+{
+	width: 100%;
+	background: #EABD11;
+	position: relative;
+	padding-bottom: 100px; 
+	margin-bottom: 0px;
+}
+
+.rodape-esquerda
+{
+	position: relative;
+}
+
+.rodape-esquerda p
+{
+	color: black;
+	font-family: 'Palanquin Dark', sans-serif;
+	font-size: 85px;
+	margin-left: 80px;
+}
+
+.rodape-esquerda p span
+{
+	color: white;
+}
+
+.itens-info
+{
+	display: inline-block;
+	list-style: none;
+	font-family: 'Palanquin Dark', sans-serif;
+	color: white;
+	padding-left: 50px;
+}
+
+.itens-info li
+{
+	float: left;
+	display: block;
+	text-align: center;
+	margin-left: 60px;
+}
+
+.itens-info li h2
+{
+	font-size: 45px;
+}
+
+.itens-info li ul li
+{
+	font-size: 20px;
+	float: none;
+	margin-left: 0px;
+}
+
+.rodape-direita
+{
+	position: absolute;
+	border-left: 6px solid;
+	border-color: white;
+	top: 50px;
+	right: 160px;
+	bottom: 80px;
+	padding: 30px;
+}
+
+.playstore-logo
+{
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	margin-left: 5px;
+	padding: 20px;
+	padding-bottom: 0px; 
+	background: white;
+}
+
+.playstore-text
+{
+	float: right;
+	margin-left: 20px;
+	margin-top: -8px
+}
+
+.rodape-direita nav a p
+{
+	font-family: 'Palanquin', sans-serif;
+	font-size: 18px;
+	color: black;
+}
+
+.rodape-direita nav a h1
+{
+	font-family: 'Palanquin', sans-serif;
+	font-size: 45px;
+	color: black;
+	margin-top: -22px;
+}
+
+.rodape-direita nav h2
+{
+	font-family: 'Palanquin', sans-serif;
+	font-size: 40px;
+	color: white;
+}
+
+.btn-whatsapp
+{
+	text-decoration: none;
+	margin-left: 8px;
+}
+
+.btn-facebook
+{
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+#overlay
+{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container-popup
+{
+	width: 900px;
+	position: fixed;
+	display: inline;
+	text-align: center;
+	font-family: 'Palanquin', sans-serif;
+	font-size: 24px;
+	background: white;
+	border: 2px solid #404040;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.btn-close
+{
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  height: 40px;
+  width: 40px;
+  background-color: #404040;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #EABD11;
+  cursor: pointer;
+}
+
+.choice-wrapper
+{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	margin: 50px;
+}
+
+.choice-wrapper a
+{
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	color: #404040;
+	background-color: #EABD11;
+	border-radius: 20px;
+	padding: 20px 50px 60px;
+	font-size: 30px;
+	transition: all .2s ease-in-out;
+}
+
+.choice-wrapper a:hover 
+{ 
+	transform: scale(1.1); 
+}
+
+.choice-wrapper img
+{
+	width: 240px;
+}
+
